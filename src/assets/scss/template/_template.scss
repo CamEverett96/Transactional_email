@@ -1,0 +1,119 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #c5c5c5 !important;
+}
+.container{
+  max-width: 600px;
+}
+
+
+///////Header//////
+.header-row{
+  background-color: #e8e2dd;
+  justify-content: space-between;
+  padding: 0px 20px;
+  th{
+    padding: 0px 45px
+  }
+.logo{
+  width: 65px;
+
+}
+.stamp{
+  width: 272px;
+}
+.button-wrap{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.button{
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  border: 1px solid #010101 ;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #010101;
+}
+}
+////////content//////
+.content-area
+{
+ background-color:  #e1f0f1;
+ width: 100%;
+ h1{
+   color: rgb(0, 0, 0);
+   font-size: 1.5rem;
+   text-align: center;
+ }
+ p{
+  color: #cc835c;
+ }
+ .order_summary{
+  background-color: #e1f0f1;
+  margin-top: 35px;
+  .order_row{
+    margin-bottom: 20px;
+   
+    background-color: #cfdddf;
+    img{
+      padding: 15px;
+      background-color: rgb(178, 193, 195);
+    }
+    h1 ,span{
+      padding: 10px;
+      margin-left: 20px;
+    }
+    .price{
+      font-size: 18px;
+      font-weight: 700;
+      display: flex;
+      padding: 13px;
+     
+    }
+  }
+  .content_bottom{
+    p{
+      color: #010101;
+    }
+  }
+}
+}
+.footer{
+  padding-top: 50px;
+  background-color: #000000;
+  th{
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  img{
+    width: 65px;
+  }
+  p{
+    color: #ffffff;
+    font-size: .75rem;
+    padding: 10px 10px;
+  }
+  h1{
+    font-size: 20px;
+    padding-top:10px;
+    color: #ffffff;
+  }
+  a{
+    display: grid;
+    color: #ffffff;
+    padding: 5px 0px;
+  }
+  .fa-brands{
+    color: #ffffff;
+    padding-right: 8px;
+    font-size: 1.4rem;
+  }
+  .fa-brands:hover{
+    color:#cc835c ;
+  }
+
+}
